@@ -1,0 +1,30 @@
+{
+  "name": "artroom",
+  "version": "1.0.0",
+  "description": "[ToyProject] My drawing gallery",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azderica/ArtRoom.git"
+  },
+  "author": "myepark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Azderica/ArtRoom/issues"
+  },
+  "homepage": "https://github.com/Azderica/ArtRoom#readme",
+  "devDependencies": {
+    "@types/pluralize": "0.0.29",
+    "chai": "^4.3.7",
+    "mocha": "^10.1.0",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "pluralize": "^8.0.0"
+  }
+}
